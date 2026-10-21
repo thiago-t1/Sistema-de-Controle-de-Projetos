@@ -26,3 +26,11 @@ Acesse http://localhost:8080 (tela de projetos). O banco H2 é em memória; cons
 | POST | `/projetos/{idProjeto}/funcionarios/{idFuncionario}` | vincular funcionário |
 
 Erros retornam JSON: `{timestamp, status, mensagem, erros[]}`.
+
+## Capturas de tela
+
+### Tela de projetos (listagem e inserção)
+![Tela de projetos](docs/tela-projetos.png)
+
+### Banco H2 com os projetos gravados
+![Console do H2](docs/h2-console.png)
